@@ -17,10 +17,29 @@ admin = name;
 alert( admin ); // "Арина"
 }
 
-function Old()
+
+function Vozrast()
 {
-d-document
-var age = Number(d.form4.x1.value)
-age = old;
-alert( old );
+if (confirm('Ваш возраст:'))
+{
+ var voz = prompt('Введите вюда ваш возраст');
+ alert("Ваш возраст - "+voz)
+ }
+ let ok = confirm("Вы уверены, что это ваш возраст - " +voz)
+if (ok)
+ {
+alert("Ну, так и быть, поверим тебе");
+}
+else
+ {
+var voz = prompt('Введите вюда ваш возраст');
+ alert("Ваш возраст - "+voz)
+}
+}
+
+var SecondName="Новикова";
+document.getElementById("sname").innerText=SecondName;
+function vozvrat()
+{
+document.getElementById("sname").innerText = document.getElementById("txt").value
 }

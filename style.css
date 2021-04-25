@@ -1,15 +1,20 @@
 h1 {
-    color: yellow;
-    background-color:red;
-    border: 1px solid black;
+    color: rgb(125, 77, 93);
+    background-color:yellow;
+    border: 1px yellow;
 }
 
 p {
-    color: blue;
+    color: yellow;
 }
 
 h2 {
-    color:black;
+    color:yellow;
     background-color: rgb(125, 77, 93);
+    border: 1px rgb(125, 77, 93);
+}
+
+h3 {
+    color:rgb(125, 77, 93);
     border: 1px solid black;
 }
